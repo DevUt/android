@@ -22,10 +22,7 @@
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="vendor/htc" name="DevUt/proprietary_vendor_htc" remote="github" revision="cm-13.0" />
-  <project path="device/htc/endeavoru" name="DevUt/android_device_htc_endeavoru" remote="github" revision="twrp3" />
-  <project path="device/htc/tegra3-common" name="DevUt/android_device_htc_tegra3-common" remote="github" revision="MM" />
-  <project path="kernel/htc/endeavoru" name="DevUt/android_kernel_htc_endeavoru" remote="github" revision="MM" />  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="CyanogenMod/android" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
