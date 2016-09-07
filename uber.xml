@@ -5,21 +5,10 @@
 <default revision="master" remote="ubertc" sync-j="4" /> 
 <!-- arm-eabi-* -->
 
- <project path="arm-eabi-4.8" name="arm-eabi-4.8" /> <project path="arm-eabi-4.9" name="arm-eabi-4.9" /> <project path="arm-eabi-5.2" name="arm-eabi-5.2" /> <project path="arm-eabi-6.0" name="arm-eabi-6.0" /> <!-- aarch64-linux-android-* --> 
-
-<project path="aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" />
-
- <project path="aarch64-linux-android-4.9-kernel" name="aarch64-linux-android-4.9-kernel" />
-
- <project path="aarch64-linux-android-5.2-kernel" name="aarch64-linux-android-5.2-kernel" />
-
- <project path="aarch64-linux-android-6.0-kernel" name="aarch64-linux-android-6.0-kernel" />
+ <project name="UBERTC/arm-eabi-5.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="bitbucket" revision="master" />
+   
+   <!-- aarch64-linux-android-* -->
 
  <!-- arm-linux-androideabi-* --> 
 
-<project path="arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" />
-
- <project path="arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" />
-
- <project path="arm-linux-androideabi-5.2" name="arm-linux-androideabi-5.2" />
  </manifest>
