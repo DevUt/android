@@ -17,6 +17,12 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+  
+  <remote name="ubertc"    
+    fetch="https://bitbucket.org/UBERTC/" 
+          revision="master"
+          remote="ubertc" 
+           /> 
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
