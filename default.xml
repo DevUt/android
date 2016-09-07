@@ -18,10 +18,10 @@
            sync-c="true"
            sync-j="4" />
   
-  <remote name="ubertc"    
+  <remote name="bitbucket"    
     fetch="https://bitbucket.org/UBERTC/" 
           revision="master"
-          remote="ubertc" 
+          remote="bitbucket" 
            /> 
 
 <!-- BEGIN CYANOGENMOD -->
