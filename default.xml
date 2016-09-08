@@ -19,7 +19,7 @@
            sync-j="4" />
   
   <remote name="bitbucket"    
-    fetch="https://bitbucket.org/UBERTC/" 
+    fetch="https://bitbucket.org/" 
           revision="master"
           remote="bitbucket" 
            /> 
