@@ -34,10 +34,10 @@
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="DevUt/android_bionic" groups="pdk" />
   <!--project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" /-->
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
-  <!--project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
@@ -198,8 +198,8 @@
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <!--include name="snippets/hal_cm_all.xml" -->
   <!--project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" /-->
-  <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" groups="omap4" />
+  <!--project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" groups="omap4" /-->
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" groups="pdk" />
@@ -491,14 +491,14 @@
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" /-->
+  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" remote="aosp" />
-  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" />
+  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" /-->
   <project path="ndk" name="platform/ndk" groups="generic_fs" remote="aosp" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
-  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" remote="aosp" />
+  <!--project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" remote="aosp" /-->
   <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" remote="aosp" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" remote="aosp" />
