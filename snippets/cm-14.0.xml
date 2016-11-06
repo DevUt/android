@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Device -->
+  <project path="device/htc/endeavoru" name="DevUt/android_device_htc_endeavoru" revision="cm-14.0-staging"/>
+  <project path="kernel/htc/endeavoru" name="DevUt/android_kernel_htc_endeavoru" revision="cm-14.0-staging"/>
+  <project path="vendor/htc" name="DevUt/proprietary_vendor_htc" revision="cm-14.0-staging"/>
+  <project path="device/htc/tegra3-common" name="DevUt/android_device_htc_tegra3-common" revision="cm-14.0-staging"/>
+
+
   <!-- CyanogenMod additions -->
   <project path="android" name="CyanogenMod/android" />
   <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" />
@@ -125,4 +132,3 @@
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
 </manifest>
-
