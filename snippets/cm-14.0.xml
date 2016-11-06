@@ -2,10 +2,10 @@
 <manifest>
 
   <!-- Device -->
-  <project path="device/htc/endeavoru" name="DevUt/android_device_htc_endeavoru" revision="cm-14.0-staging"/>
-  <project path="kernel/htc/endeavoru" name="DevUt/android_kernel_htc_endeavoru" revision="cm-14.0-staging"/>
-  <project path="vendor/htc" name="DevUt/proprietary_vendor_htc" revision="cm-14.0-staging"/>
-  <project path="device/htc/tegra3-common" name="DevUt/android_device_htc_tegra3-common" revision="cm-14.0-staging"/>
+  <project path="device/htc/endeavoru" name="DevUt/android_device_htc_endeavoru" revision="cm-14.0"/>
+  <project path="kernel/htc/endeavoru" name="DevUt/android_kernel_htc_endeavoru" revision="cm-14.0"/>
+  <project path="vendor/htc" name="DevUt/proprietary_vendor_htc" revision="cm-14.0"/>
+  <project path="device/htc/tegra3-common" name="DevUt/android_device_htc_tegra3-common" revision="cm-14.0"/>
 
 
   <!-- CyanogenMod additions -->
